@@ -1,0 +1,61 @@
+
+body {
+    background-color: gray;
+    padding: 20px;
+}
+
+
+@font-face {
+    font-family: barcade;
+    src: url("barcade.otf");
+}
+.blog-posts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    font-family: barcade;
+    background-color: beige;
+    border-color: rgb(48, 13, 80);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+  }
+  
+  .blog-posts {
+    width: 60%;
+    font-family: barcade;
+    color:rgb(19, 44, 61);
+    background-color: rgba(89, 89, 90, 0.288);
+    padding: 10px;
+    border-color: rgba(48, 13, 80, 0.384);
+    border-radius: 10px;
+    border-style: dotted;
+    border-width: 2px;
+  }
+  
+  .music-container {
+    width: 35%;
+  }
+  
+  .soundcloud-container, .youtube-container {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: orange;
+  }
+
+  h3 {
+    font-size: 31px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(162, 0, 255);
+    letter-spacing: 5px;
+  }
+  

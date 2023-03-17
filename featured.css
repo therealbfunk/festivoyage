@@ -1,0 +1,108 @@
+
+body {
+    background: rgb(49,234,219); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(49,234,219,1) 0%, rgba(188,206,229,1) 22%, rgba(255,216,249,1) 67%, rgba(248,255,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(49,234,219,1) 0%,rgba(188,206,229,1) 22%,rgba(255,216,249,1) 67%,rgba(248,255,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(49,234,219,1) 0%,rgba(188,206,229,1) 22%,rgba(255,216,249,1) 67%,rgba(248,255,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31eadb', endColorstr='#f8ffe8',GradientType=0 );
+    display: flex;
+    font-family: forgotten;
+    min-height: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: ;
+    background-image: url("iron.png");
+    }
+    
+    @font-face {
+        font-family: forgotten;
+        src: url("forgotten\ futurist\ rg.otf");
+    }
+    @font-face {
+        font-family: audio;
+        src: url("Audiowide.ttf");
+    }
+    h1 {
+        font-family: forgotten;
+        font-size: 100px;
+        font-weight:bold;
+        margin:0;
+        padding:0;
+        color: #05a2fd;
+        background-image: linear-gradient(to left, #412c7a, #b393d3, rgb(68, 227, 255));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+        }
+
+      
+    
+    h2 {
+        
+    
+        color: rgb(24, 16, 59);
+        font-family: forgotten;
+      }
+    
+    h3 {
+        
+        font-weight: bold;
+       
+        color: rgb(4, 37, 87);
+        letter-spacing: 5px;
+        font-family: forgotten;
+      }
+    p {
+        font-family: forgotten;
+        color: rgb(0, 0, 0);
+      }
+
+
+      .interview-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        padding: 5px;
+        background-color: #befdf2b6;
+       
+        border-radius: 15px;
+      }
+
+      .eventscal {
+        display: flex;
+       
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .photo-gallery {
+        display: flex;
+        flex-direction: row;
+    border-radius: 10px;
+        margin: 5px;
+    gap: 5px;
+      }
+      
+      .photo {
+        width: calc(33.33% - 0.66rem);
+        height: 100%;
+        border-radius: 10px;
+        margin: 0.33rem;
+        background-color: #afc8ff;
+      }
+      
+      .photo-1 {
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+      }
+    
+
+.interview-section {
+    display: flex;
+    flex-direction: column;
+   
+   
+  }

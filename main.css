@@ -1,0 +1,418 @@
+
+body {
+    background-image: url(".png")
+    display: flex;
+    font-family: forgotten;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: black;}
+    
+    @font-face {
+        font-family: forgotten;
+        src: url("forgotten\ futurist\ rg.otf");
+    }
+    @font-face {
+        font-family: audio;
+        src: url("Audiowide.ttf");
+    }
+    h1 {
+        font-family: forgotten;
+        font-size: 100px;
+        font-weight:bold;
+        margin:0;
+        padding:0;
+        color: #05a2fd;
+        background-image: linear-gradient(to left, #412c7a, #b393d3, rgb(68, 227, 255));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+        }
+
+    .featured {
+        font-family: audio;
+        text-align: center;
+        background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+    }
+
+    hr {
+        border:none;
+        border-top:1px solid #CCCCCC;
+        height:1px;
+        margin-bottom:25px;
+        }
+    
+    #stylefour{
+        position:relative;
+        display:block;
+        height:39px;
+        font-size:25px;
+        font-weight:bold;
+        background:transparent url(bgOFF.gif) repeat-x top left;
+        font-family: forgotten;
+        border-top:4px solid #0ff;
+        line-height: 15px;
+        }
+    
+    #stylefour ul{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+        width:auto;
+        }
+    
+    #stylefour ul li{
+        display:block;
+        float:left;
+        margin:0;
+        }
+    
+    #stylefour ul li a{
+        display:block;
+        float:left;
+        color:#666;
+        text-decoration:none;
+        padding:11px 20px 0 20px;
+        height:23px;
+        background:transparent url(bgDIVIDER.gif) no-repeat top right;
+        }
+    
+    #stylefour ul li a:hover,#stylefour ul li a.current{
+        color:#0ff;
+        background:#a5f1ff6e url(bgON.gif) no-repeat top right;
+        }
+    
+    /* Style the hero section */
+    .hero {
+        background-image: url('avatarclear.png');
+        border-radius: 0 0 85% 85% / 30%;
+        background-size: ;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    
+    .hero-text {
+      box-shadow: 0px 0px 25px 0px #0ff;
+        text-align: center;
+        margin: auto;
+        font-family: tolo;
+    width: 100%;
+	height: 100%;
+    border-radius: 0 0 65% 65% / 60%;
+	
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+  
+    }
+    
+    .hero-text h1 {
+        font-family: audio;
+       margin-top: 6rem;
+       color: #01f7ffec;
+	text-shadow: 2px 2px 2px #333;
+  background-image: linear-gradient( 135deg, #15a9ff 10%, #fd5e086b, aqua 100%);
+  
+    }
+    
+    .hero-text p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+        font-family: audio;
+    }
+    
+    .btn {
+        display: inline-block;
+        background-color: #fff;
+        font-family: barcade;
+        color: #333;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    .btn:hover {
+        background-color: #ddd;
+        color: #05a2fd;
+    }
+    
+      
+    
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: orange;
+        font-family: forgotten;
+      }
+    
+    h3 {
+        font-size: 31px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: rgb(27, 228, 255);
+        letter-spacing: 5px;
+        font-family: forgotten;
+      }
+    p {
+        font-family: forgotten;
+        color: white;
+      }
+
+      .card-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+        padding: 2rem;
+        background-color: transparent;
+         padding-bottom: 75px;
+      }
+      
+      .card {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        background-color: rgba(89, 89, 90, 0.288);
+        background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 0px 0px 25px 0px #0ff;
+        transition: transform 0.3s ease-in-out;
+        font-family: audio;
+      
+        
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+      }
+      
+      .card-image {
+        position: relative;
+        width: 100%;
+        height: 60%;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-top: -40px;
+        z-index: 1;
+      }
+      
+      .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .card-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        text-align: center;
+        font-family: audio;
+        
+     }
+      
+      .card-content h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        font-family: audio;
+      }  
+
+      .connect {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+        padding: 2rem;
+        background-color: #000000;
+        padding-bottom: 25px;
+      }
+
+      .interview-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: transparent;
+        border-radius: 15px;
+        padding-bottom: 25px;
+      }
+
+      .eventscal {
+        display: flex;
+       
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .photo-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        height: 100%;
+        padding: 10px;
+        margin: 15px;
+        
+      }
+      
+      .photo {
+        width: calc(33.33% - 0.66rem);
+        height: 100%;
+        border-radius: 10px;
+        margin: 0.33rem;
+        background-color: #afc8ff;
+      }
+      
+      .photo-1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+      }
+    
+      .interview-article {
+        width: 70%;
+        height: 100%;
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: rgba(89, 89, 90, 0.288);
+        background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+        box-shadow: 0px 0px 25px 0px #0ff;
+        margin: 20px;
+      }
+      
+      .interview-article h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #ffffff;
+        text-align: center;
+      }
+      
+      .interview-article p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        color: #a5e2ff;
+      }
+      
+      .blog-posts-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: ;
+        margin: 30px;
+        font-family: barcade;
+        background-color: rgba(0, 0, 0, 0.295);
+        border-color: rgb(48, 13, 80);
+        border-radius: 10px;
+        border-style: solid;
+        border-width: 0px;
+        padding: 10px;
+      }
+      
+      .blog-posts {
+        width: 60%;
+        font-family: barcade;
+        color:rgb(255, 255, 255);
+        background-color: rgba(89, 89, 90, 0.288);
+        padding: 10px;
+        border-color: rgba(48, 13, 80, 0.384);
+        border-radius: 10px;
+        border-style: dotted;
+        border-width: 2px;
+        background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+        box-shadow: 0px 0px 25px 0px #0ff;
+      }
+      
+      .music-container {
+        width: 35%;
+        padding: 10px;
+      }
+      
+      .soundcloud-container, .youtube-container {
+        margin-bottom: 30px;
+      }
+      
+      .events {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content:space-evenly;
+padding: 10px;
+margin: auto;
+padding-bottom: 25px;
+
+      }
+      
+      .eventspic {
+    max-height: 40%;
+    border-radius: 15px;
+        max-width: 40%;
+        margin: 10px;
+        padding: 10px;
+      }
+
+    footer {
+      display: flex;
+    font-family: forgotten;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(89, 89, 90, 0.288);
+    background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+    border-radius: 15px;
+    justify-content: center;
+    box-shadow: 0px 0px 25px 0px #0ff;
+    margin: 25px;
+    
+   
+}
+
+.socialicons {
+  max-width: 100%;
+  margin: auto;
+}
+
+.stylefive {
+  color: #000000;
+  position:absolute;
+  display:block;
+  margin: auto;
+  height:39px;
+  font-size:25px;
+  font-weight:bold;
+  background:transparent url(bgOFF.gif) repeat-x top left;
+  font-family: forgotten;
+  border-top:4px solid #0da2e7;
+  line-height: 15px;
+  }
+
+#stylefive ul{
+  margin:auto;
+  padding:5px;
+  list-style-type:none;
+  width:auto;
+  color: #000000;
+  }
+
+#stylefive ul li{
+  display:block;
+  float:left;
+  margin:auto;
+  color: #000000;
+  }
